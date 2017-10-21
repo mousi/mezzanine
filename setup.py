@@ -4,6 +4,8 @@ from shutil import rmtree
 from setuptools import setup, find_packages
 from mezzanine import __version__ as version
 
+# Testing pull request
+
 
 exclude = ["mezzanine/project_template/dev.db",
            "mezzanine/project_template/project_name/local_settings.py"]
